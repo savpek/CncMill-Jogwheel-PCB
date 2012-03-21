@@ -13890,28 +13890,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <nets>
 <net name="TXD" class="0">
 <segment>
-<pinref part="1.MCU1" gate="G$1" pin="PD0(RXD)"/>
-<wire x1="111.76" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="101.6" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="RXD"/>
 <wire x1="-12.7" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="91.44" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="-7.62" y="91.44" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="RXD" class="0">
 <segment>
 <pinref part="1.MCU1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="111.76" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="101.6" y="58.42" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="RXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TXD"/>
 <wire x1="-12.7" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="86.36" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="-7.62" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="1.MCU1" gate="G$1" pin="PD0(RXD)"/>
+<wire x1="111.76" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="101.6" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">

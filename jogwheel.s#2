@@ -13387,8 +13387,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="+3V1" library="schematic_supply" deviceset="+3V3" device=""/>
 <part name="+3V2" library="schematic_supply" deviceset="+3V3" device=""/>
 <part name="4.T4" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
-<attribute name="PIN1" value="24V_IN"/>
-<attribute name="PIN2" value="AGND"/>
+<attribute name="PIN1" value="AGND"/>
+<attribute name="PIN2" value="24VIN"/>
 </part>
 <part name="5.T0" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="V+"/>
@@ -13409,35 +13409,35 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND17" library="schematic_supply" deviceset="GND" device=""/>
 <part name="P+16" library="schematic_supply" deviceset="+5V" device=""/>
 <part name="6.T7" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
-<attribute name="PIN1" value=""/>
+<attribute name="PIN1" value="24V"/>
 <attribute name="PIN2" value="24V"/>
 </part>
 <part name="6.T8" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
-<attribute name="PIN1" value=""/>
+<attribute name="PIN1" value="24V"/>
 <attribute name="PIN2" value="24V"/>
 </part>
 <part name="6.T4" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="AGND"/>
-<attribute name="PIN2" value=" "/>
+<attribute name="PIN2" value="AGND"/>
 </part>
 <part name="6.T5" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="AGND"/>
-<attribute name="PIN2" value=""/>
+<attribute name="PIN2" value="AGND"/>
 </part>
 <part name="6.T6" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="AGND"/>
-<attribute name="PIN2" value=" "/>
+<attribute name="PIN2" value="AGND"/>
 </part>
 <part name="6.T2" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="AREF"/>
-<attribute name="PIN2" value=""/>
+<attribute name="PIN2" value="AREF"/>
 </part>
 <part name="AGND7" library="schematic_supply" deviceset="AGND" device=""/>
 <part name="P+22" library="schematic_supply" deviceset="+24V" device=""/>
 <part name="+3V3" library="schematic_supply" deviceset="+3V3" device=""/>
 <part name="6.T0" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
 <attribute name="PIN1" value="GND"/>
-<attribute name="PIN2" value=""/>
+<attribute name="PIN2" value="GND"/>
 </part>
 <part name="GND23" library="schematic_supply" deviceset="GND" device=""/>
 <part name="7.T0" library="connectors" deviceset="CONNECTOR_2PIN" device="2W-TERMINAL-HEADER-20.155MV/2">
@@ -13696,9 +13696,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="3.C3" gate="G$1" x="-104.14" y="-101.6"/>
 <instance part="+3V1" gate="G$1" x="-104.14" y="-91.44"/>
 <instance part="+3V2" gate="G$1" x="104.14" y="-73.66"/>
-<instance part="4.T4" gate="G$1" x="-5.08" y="-91.44">
-<attribute name="PIN1" x="-5.08" y="-86.36" size="1.778" layer="96" display="off"/>
-<attribute name="PIN2" x="-5.08" y="-86.36" size="1.778" layer="96" display="off"/>
+<instance part="4.T4" gate="G$1" x="-5.08" y="-101.6" rot="MR180">
+<attribute name="PIN1" x="-5.08" y="-106.68" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PIN2" x="-5.08" y="-106.68" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="5.T0" gate="G$1" x="-185.42" y="-172.72" rot="MR0">
 <attribute name="PIN1" x="-185.42" y="-165.1" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -13890,28 +13890,28 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <nets>
 <net name="TXD" class="0">
 <segment>
-<pinref part="1.MCU1" gate="G$1" pin="PD0(RXD)"/>
-<wire x1="111.76" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="101.6" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="RXD"/>
 <wire x1="-12.7" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="91.44" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="-7.62" y="91.44" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="RXD" class="0">
 <segment>
 <pinref part="1.MCU1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="111.76" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="101.6" y="58.42" size="1.778" layer="95"/>
+<label x="104.14" y="58.42" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="RXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TXD"/>
 <wire x1="-12.7" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="86.36" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="-7.62" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="1.MCU1" gate="G$1" pin="PD0(RXD)"/>
+<wire x1="111.76" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="104.14" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -14523,10 +14523,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="342.9" y="33.02"/>
 </segment>
 <segment>
-<pinref part="4.T4" gate="G$1" pin="P$2"/>
-<wire x1="-10.16" y1="-101.6" x2="-22.86" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-101.6" x2="-22.86" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
+<pinref part="4.T4" gate="G$1" pin="P$1"/>
+<wire x1="-22.86" y1="-101.6" x2="-10.16" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="6.T6" gate="G$1" pin="P$1"/>
@@ -14592,10 +14592,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="IC2" gate="_G1" pin="C"/>
 </segment>
 <segment>
-<pinref part="4.T4" gate="G$1" pin="P$1"/>
-<wire x1="-10.16" y1="-91.44" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-91.44" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="1" pin="+24V"/>
+<pinref part="4.T4" gate="G$1" pin="P$2"/>
+<wire x1="-10.16" y1="-91.44" x2="-22.86" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="6.T8" gate="G$1" pin="P$1"/>

@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -28,10 +28,10 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -54,8 +54,8 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="DOCUMENTARY" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Hidden" color="15" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Changes" color="12" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Hidden" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -67,12 +67,34 @@
 <hole x="87" y="14" drill="3.3"/>
 <hole x="96" y="53" drill="3.3"/>
 <hole x="3" y="50" drill="3.3"/>
-<dimension x1="0" y1="0" x2="0" y2="77" x3="-10.3" y3="38.5" layer="100"/>
-<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-11.1" layer="100"/>
+<dimension x1="0" y1="0" x2="0" y2="77" x3="-10.3" y3="38.5" layer="48"/>
+<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-11.1" layer="48"/>
 <text x="99" y="21.2" size="0.8128" layer="51" rot="R90">Savpek Electronics</text>
 <text x="99" y="21.2" size="0.8128" layer="51" rot="R90">Savpek Electronics</text>
 <text x="98" y="21.2" size="0.8128" layer="51" rot="R90">USB-IO CARD</text>
 <text x="97" y="21.2" size="0.8128" layer="51" rot="R90">v.25.01.2012</text>
+<wire x1="-3.8" y1="65.4" x2="38.2" y2="65.4" width="0.1" layer="48" style="shortdash"/>
+<wire x1="38.2" y1="65.4" x2="38.2" y2="78.4" width="0.1" layer="48" style="shortdash"/>
+<wire x1="38.2" y1="78.4" x2="-3.8" y2="78.4" width="0.1" layer="48" style="shortdash"/>
+<wire x1="-3.8" y1="78.4" x2="-3.8" y2="65.4" width="0.1" layer="48" style="shortdash"/>
+<text x="-3.8" y="79" size="1.5" layer="48">"Relays"</text>
+<wire x1="59.6" y1="78.6" x2="59.6" y2="65.2" width="0.1" layer="48" style="shortdash"/>
+<wire x1="59.6" y1="65.2" x2="71.6" y2="65.2" width="0.1" layer="48" style="shortdash"/>
+<wire x1="71.6" y1="65.2" x2="71.6" y2="78.6" width="0.1" layer="48" style="shortdash"/>
+<wire x1="71.6" y1="78.6" x2="59.6" y2="78.6" width="0.1" layer="48" style="shortdash"/>
+<wire x1="59.6" y1="78.6" x2="59.6" y2="78.8" width="0.1" layer="48" style="shortdash"/>
+<text x="59.6" y="79.2" size="1.5" layer="48">Power input</text>
+<wire x1="-1.4" y1="12.2" x2="-1.2" y2="12.2" width="0.1" layer="48" style="shortdash"/>
+<wire x1="-1.2" y1="12.2" x2="104" y2="12.2" width="0.1" layer="48" style="shortdash"/>
+<wire x1="104" y1="12.2" x2="104" y2="-1.8" width="0.1" layer="48" style="shortdash"/>
+<wire x1="104" y1="-1.8" x2="-1.2" y2="-1.8" width="0.1" layer="48" style="shortdash"/>
+<wire x1="-1.2" y1="-1.8" x2="-1.2" y2="12.2" width="0.1" layer="48" style="shortdash"/>
+<text x="0.8" y="-3.8" size="1.5" layer="48">Inputs</text>
+<wire x1="100.8" y1="55.8" x2="72.2" y2="55.8" width="0.1" layer="48" style="shortdash"/>
+<wire x1="72.2" y1="55.8" x2="72.2" y2="65.6" width="0.1" layer="48" style="shortdash"/>
+<wire x1="72" y1="65.6" x2="100.8" y2="65.6" width="0.1" layer="48" style="shortdash"/>
+<wire x1="100.8" y1="65.6" x2="100.8" y2="56" width="0.1" layer="48" style="shortdash"/>
+<text x="83.8" y="53.8" size="1.5" layer="48">ADC</text>
 </plain>
 <libraries>
 <library name="jogwheel_parts">
@@ -1645,7 +1667,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="62.8851" y="41.865" size="1.27" layer="27"/>
 </element>
 <element name="1.MCU1" library="jogwheel_parts" package="TQFP32-08" value="ATMEGA48-20PU-32TQFPTQFP32" x="39.37" y="41.7825" smashed="yes">
-<attribute name="NAME" x="36.6014" y="46.8625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="36.2014" y="47.0625" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="36.3474" y="40.5125" size="0.8128" layer="27"/>
 </element>
 <element name="0.CON1" library="tlcamera_rail_to_manufacture" package="USB-B-THROUGH-HOLE" value="USB-BWUERTH-ELECTRONIC-USB-B" x="88.9" y="48.1425" smashed="yes" rot="R270">
@@ -1662,8 +1684,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="81.3767" y="44.0469" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="2.T3" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="34.035" y="71.125" smashed="yes" rot="R180">
-<attribute name="PIN1" value="DRAIN" x="35.305" y="75.57" size="0.8128" layer="21" rot="R180"/>
-<attribute name="PIN2" value="AGND" x="31.495" y="75.57" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN1" value="DRAIN" x="35.905" y="75.97" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="AGND" x="31.695" y="75.97" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="35.54" y="67.115" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="2.U5" library="jogwheel_parts" package="STD6NF10" value="N_MOSFET_STD6NF10" x="38.1" y="60.96" smashed="yes">
@@ -1674,8 +1696,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="27.158" y="51.8575" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="2.T2" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="25.145" y="71.125" smashed="yes" rot="R180">
-<attribute name="PIN1" value="DRAIN" x="26.415" y="75.57" size="0.8128" layer="21" rot="R180"/>
-<attribute name="PIN2" value="AGND" x="22.605" y="75.57" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN1" value="DRAIN" x="27.015" y="75.97" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="AGND" x="22.605" y="75.97" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="26.45" y="67.115" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="2.U4" library="jogwheel_parts" package="STD6NF10" value="N_MOSFET_STD6NF10" x="27.94" y="60.96" smashed="yes">
@@ -1686,8 +1708,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="20.173" y="51.8575" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="2.T1" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="16.255" y="71.125" smashed="yes" rot="R180">
-<attribute name="PIN1" value="DRAIN" x="17.525" y="75.57" size="0.8128" layer="21" rot="R180"/>
-<attribute name="PIN2" value="AGND" x="13.715" y="75.57" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN1" value="DRAIN" x="18.125" y="75.97" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="AGND" x="13.915" y="75.97" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="17.76" y="67.115" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="2.U3" library="jogwheel_parts" package="STD6NF10" value="N_MOSFET_STD6NF10" x="17.78" y="60.96" smashed="yes">
@@ -1698,8 +1720,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.823" y="51.8575" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="2.T0" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="7.365" y="71.125" smashed="yes" rot="R180">
-<attribute name="PIN1" value="DRAIN" x="8.635" y="75.57" size="0.8128" layer="21" rot="R180"/>
-<attribute name="PIN2" value="AGND" x="4.825" y="75.57" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN1" value="DRAIN" x="9.235" y="75.97" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="AGND" x="5.025" y="75.97" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="9.07" y="67.115" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="2.U2" library="jogwheel_parts" package="STD6NF10" value="N_MOSFET_STD6NF10" x="7.62" y="60.96" smashed="yes">
@@ -1738,23 +1760,23 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="61.2217" y="39.8754" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="1.C0" library="RC_and_L" package="C0805" value="100nF" x="30.4725" y="42.9675" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.2501" y="43.7002" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="28.8998" y="44.0501" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="28.4326" y="43.7227" size="0.3048" layer="27" rot="R270"/>
 </element>
 <element name="1.C1" library="RC_and_L" package="C0805" value="100nF" x="30.4725" y="40.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.2501" y="41.5327" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="29.0673" y="38.8501" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="28.4326" y="41.5552" size="0.3048" layer="27" rot="R270"/>
 </element>
 <element name="1.L1" library="jogwheel_parts" package="C0805" value="10uH" x="48.45" y="39.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.2276" y="40.5127" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="47.0873" y="41.0276" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="46.4101" y="40.5352" size="0.3048" layer="27" rot="R270"/>
 </element>
 <element name="1.C2" library="RC_and_L" package="C0805" value="100nF" x="48.45" y="37.6125" smashed="yes">
-<attribute name="NAME" x="46.6724" y="36.8798" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="49.5202" y="36.4724" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="50.4899" y="36.8573" size="0.3048" layer="27" rot="R90"/>
 </element>
 <element name="1.C4" library="RC_and_L" package="C0805" value="100nF" x="47.3335" y="44.513" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.0662" y="42.7354" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="48.4646" y="45.6662" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="48.0887" y="46.5529" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="3.IC0" library="jogwheel_parts" package="SOT223" value="REGULATOR_AP1117E33G-13" x="62.2475" y="58.7675" smashed="yes" rot="R270">
@@ -1764,7 +1786,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="60.9267" y="61.3075" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="3.C0" library="RC_and_L" package="E1.5-5" value="22uF" x="66.4275" y="51.1275" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.6875" y="52.2945" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="62.8875" y="52.2945" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="68.8405" y="53.0405" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="3.C2" library="RC_and_L" package="C0805" value="100nF" x="54.931" y="57.125" smashed="yes" rot="R270">
@@ -1776,17 +1798,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.2741" y="53.8202" size="0.3048" layer="27" rot="R270"/>
 </element>
 <element name="3.C3" library="RC_and_L" package="E1.5-5" value="22uF" x="50.9335" y="56.009" smashed="yes">
-<attribute name="NAME" x="52.3005" y="59.949" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="52.3005" y="59.549" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="52.8465" y="53.596" size="0.6096" layer="27" ratio="10"/>
 </element>
 <element name="4.T4" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="66.8025" y="70.9975" smashed="yes" rot="R180">
-<attribute name="PIN1" value="AGND" x="68.0725" y="75.4425" size="0.8128" layer="21" rot="R180"/>
-<attribute name="PIN2" value="24VIN" x="64.2625" y="75.4425" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN1" value="AGND" x="68.4725" y="75.8425" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="24VIN" x="64.6625" y="75.8425" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="68" y="67" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="5.T0" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="3.81" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="2.54" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="6.35" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="3.34" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="7.15" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="1.905" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R0" library="RC_and_L" package="R0805" value="10k" x="7.62" y="13.335" smashed="yes" rot="R270">
@@ -1798,8 +1820,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.2175" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.T1" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="12.7" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="11.43" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="15.24" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="12.23" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="16.04" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="10.795" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R2" library="RC_and_L" package="R0805" value="10k" x="12.7" y="13.335" smashed="yes" rot="R270">
@@ -1812,12 +1834,12 @@ design rules under a new name.</description>
 </element>
 <element name="6.T7" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="54.7375" y="70.9975" smashed="yes" rot="R180">
 <attribute name="PIN1" value="" x="56.0075" y="75.4425" size="0.6096" layer="21" rot="R180"/>
-<attribute name="PIN2" value="24V" x="52.1975" y="75.4425" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="24V" x="52.1975" y="75.8425" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="56.2425" y="66.9875" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="6.T8" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="45.8475" y="70.9975" smashed="yes" rot="R180">
 <attribute name="PIN1" value="" x="47.1175" y="75.4425" size="0.6096" layer="21" rot="R180"/>
-<attribute name="PIN2" value="24V" x="43.3075" y="75.4425" size="0.8128" layer="21" rot="R180"/>
+<attribute name="PIN2" value="24V" x="43.3075" y="75.8425" size="0.8128" layer="21" rot="R180"/>
 <attribute name="NAME" x="47.5525" y="66.9875" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="6.T4" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="78.7425" y="70.9975" smashed="yes" rot="R180">
@@ -1860,8 +1882,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.16" y="22.86" size="0.8128" layer="21"/>
 </element>
 <element name="5.T2" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="21.59" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="20.32" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="24.13" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="21.12" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="24.93" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="19.685" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R4" library="RC_and_L" package="R0805" value="10k" x="17.78" y="13.335" smashed="yes" rot="R270">
@@ -1869,8 +1891,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.7225" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.T3" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="30.48" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="29.21" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="33.02" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="30.01" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="33.82" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="28.575" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R5" library="RC_and_L" package="R0805" value="10k" x="22.86" y="13.335" smashed="yes" rot="R270">
@@ -1886,8 +1908,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="26.4575" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.T4" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="39.37" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="38.1" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="41.91" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="38.9" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="42.71" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="37.465" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R8" library="RC_and_L" package="R0805" value="10k" x="39.37" y="13.335" smashed="yes" rot="R270">
@@ -1895,12 +1917,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="38.3125" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.R9" library="RC_and_L" package="R0805" value="10k" x="41.91" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.9194" y="29.6474" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="43.3194" y="34.6474" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.9675" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.T5" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="48.26" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="46.99" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="50.8" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="47.79" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="51.6" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="46.355" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R10" library="RC_and_L" package="R0805" value="10k" x="44.45" y="13.335" smashed="yes" rot="R270">
@@ -1908,15 +1930,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.3925" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.R11" library="RC_and_L" package="R0805" value="10k" x="46.99" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.9994" y="29.6474" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="48.7994" y="34.6474" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="48.0475" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="IC4" library="jogwheel_parts" package="ACPL-845-O300" value="OPTO_4_CHANNELS" x="39.37" y="27.94" smashed="yes">
 <attribute name="NAME" x="41.91" y="22.86" size="0.8128" layer="21"/>
 </element>
 <element name="5.T6" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="57.15" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="55.88" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="59.69" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="56.68" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="60.49" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="55.245" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R12" library="RC_and_L" package="R0805" value="10k" x="49.53" y="13.335" smashed="yes" rot="R270">
@@ -1924,8 +1946,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="48.4725" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.T7" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="66.04" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="64.77" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="68.58" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="65.57" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="69.38" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="64.135" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R13" library="RC_and_L" package="R0805" value="10k" x="54.61" y="13.335" smashed="yes" rot="R270">
@@ -1933,16 +1955,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="53.5525" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.R14" library="RC_and_L" package="R0805" value="10k" x="52.07" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.0794" y="29.6474" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="53.8794" y="34.6474" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="53.1275" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.R15" library="RC_and_L" package="R0805" value="10k" x="57.15" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.1594" y="29.6474" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="58.9594" y="34.6474" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.2075" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.T8" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="74.93" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="73.66" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="77.47" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="74.46" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="78.27" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="73.025" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R16" library="RC_and_L" package="R0805" value="10k" x="67.31" y="13.335" smashed="yes" rot="R270">
@@ -1954,8 +1976,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70.9075" y="34.437" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="5.T9" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="83.82" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="82.55" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="86.36" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="83.35" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="87.16" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="81.915" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R18" library="RC_and_L" package="R0805" value="10k" x="72.39" y="13.335" smashed="yes" rot="R270">
@@ -1970,8 +1992,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.85" y="22.86" size="0.8128" layer="21"/>
 </element>
 <element name="5.T10" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="92.71" y="6.35" smashed="yes">
-<attribute name="PIN1" value="V+" x="91.44" y="1.905" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="95.25" y="1.905" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="92.24" y="1.505" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="96.05" y="1.505" size="0.8128" layer="21"/>
 <attribute name="NAME" x="90.805" y="10.16" size="0.8128" layer="21"/>
 </element>
 <element name="5.R20" library="RC_and_L" package="R0805" value="10k" x="77.47" y="13.335" smashed="yes" rot="R270">
@@ -1979,8 +2001,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="76.4125" y="10.648" size="0.6096" layer="27"/>
 </element>
 <element name="5.T11" library="connectors" package="2WAY-TERMINAL-HEADER-20.155MV/2" value="CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2" x="92.71" y="16.51" smashed="yes">
-<attribute name="PIN1" value="V+" x="91.44" y="12.065" size="0.8128" layer="21"/>
-<attribute name="PIN2" value="V-" x="95.25" y="12.065" size="0.8128" layer="21"/>
+<attribute name="PIN1" value="V+" x="92.24" y="11.665" size="0.8128" layer="21"/>
+<attribute name="PIN2" value="V-" x="96.05" y="11.665" size="0.8128" layer="21"/>
 <attribute name="NAME" x="90.805" y="20.32" size="0.8128" layer="21"/>
 </element>
 <element name="5.R21" library="RC_and_L" package="R0805" value="10k" x="82.55" y="13.335" smashed="yes" rot="R270">
