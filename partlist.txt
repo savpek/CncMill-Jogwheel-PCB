@@ -1,0 +1,94 @@
+Partlist
+
+Exported from jogwheel.sch at 25.1.2012 21:33:04
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value                                       Device                                      Package                         Library                      Sheet
+
+0.C0     22uF                                        CPOL-EUE1.5-5                               E1.5-5                          RC_and_L                     1
+0.C1     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+0.C2     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+0.C3     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+0.C4     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+0.CON1   USB-BWUERTH-ELECTRONIC-USB-B                USB-BWUERTH-ELECTRONIC-USB-B                USB-B-THROUGH-HOLE              tlcamera_rail_to_manufacture 1
+1.C0     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+1.C1     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+1.C2     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+1.C4     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+1.ISPC   CONNECTOR_6PIN2X3_ISP                       CONNECTOR_6PIN2X3_ISP                       2X3_ISP                         connectors                   1
+1.L1     10uH                                        L_10UH_0805_LB2012T100KR                    C0805                           jogwheel_parts               1
+1.MCU1   ATMEGA48-20PU-32TQFPTQFP32                  ATMEGA48-20PU-32TQFPTQFP32                  TQFP32-08                       jogwheel_parts               1
+2.R0     1k                                          R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R1     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R2     1k                                          R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R3     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R4     1k                                          R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R5     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R6     1k                                          R-EU_R0805                                  R0805                           RC_and_L                     1
+2.R7     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+2.T0     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+2.T1     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+2.T2     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+2.T3     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+2.U2     N_MOSFET_STD6NF10                           N_MOSFET_STD6NF10                           STD6NF10                        jogwheel_parts               1
+2.U3     N_MOSFET_STD6NF10                           N_MOSFET_STD6NF10                           STD6NF10                        jogwheel_parts               1
+2.U4     N_MOSFET_STD6NF10                           N_MOSFET_STD6NF10                           STD6NF10                        jogwheel_parts               1
+2.U5     N_MOSFET_STD6NF10                           N_MOSFET_STD6NF10                           STD6NF10                        jogwheel_parts               1
+3.C0     22uF                                        CPOL-EUE1.5-5                               E1.5-5                          RC_and_L                     1
+3.C1     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+3.C2     100nF                                       C-EUC0805                                   C0805                           RC_and_L                     1
+3.C3     22uF                                        CPOL-EUE1.5-5                               E1.5-5                          RC_and_L                     1
+3.IC0    REGULATOR_AP1117E33G-13                     REGULATOR_AP1117E33G-13                     SOT223                          jogwheel_parts               1
+4.T4     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.R0     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R1     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R2     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R3     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R4     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R5     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R6     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R7     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R8     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R9     10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R10    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R11    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R12    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R13    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R14    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R15    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R16    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R17    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R18    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R19    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R20    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R21    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R22    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.R23    10k                                         R-EU_R0805                                  R0805                           RC_and_L                     1
+5.T0     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T1     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T2     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T3     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T4     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T5     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T6     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T7     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T8     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T9     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T10    CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+5.T11    CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T0     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T2     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T4     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T5     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T6     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T7     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+6.T8     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+7.T0     CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 CONNECTOR_2PIN2W-TERMINAL-HEADER-20.155MV/2 2WAY-TERMINAL-HEADER-20.155MV/2 connectors                   1
+IC1      FT232RL                                     FT232RL                                     SSOP28                          jogwheel_parts               1
+IC2      OPTO_4_CHANNELS                             OPTO_4_CHANNELS                             ACPL-845-O300                   jogwheel_parts               1
+IC3      OPTO_4_CHANNELS                             OPTO_4_CHANNELS                             ACPL-845-O300                   jogwheel_parts               1
+IC4      OPTO_4_CHANNELS                             OPTO_4_CHANNELS                             ACPL-845-O300                   jogwheel_parts               1
+IC5      OPTO_4_CHANNELS                             OPTO_4_CHANNELS                             ACPL-845-O300                   jogwheel_parts               1
