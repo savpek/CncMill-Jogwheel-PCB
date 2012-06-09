@@ -2033,19 +2033,16 @@ design rules under a new name.</description>
 <wire x1="47.498" y1="51.308" x2="44.323" y2="51.308" width="0.3048" layer="16"/>
 <wire x1="44.323" y1="51.308" x2="42.672" y2="49.657" width="0.3048" layer="16"/>
 <wire x1="42.672" y1="49.657" x2="39.37" y2="49.657" width="0.3048" layer="16"/>
-<wire x1="38.17" y1="48.33" x2="38.354" y2="48.514" width="0.3048" layer="1"/>
 <wire x1="38.354" y1="48.514" x2="38.354" y2="49.149" width="0.3048" layer="1"/>
 <wire x1="38.354" y1="49.149" x2="39.116" y2="49.911" width="0.3048" layer="1"/>
 <via x="39.116" y="49.911" extent="1-16" drill="0.6096"/>
 <wire x1="39.116" y1="49.911" x2="39.37" y2="49.657" width="0.3048" layer="16"/>
 <contactref element="1.MCU1" pad="31"/>
-<wire x1="37.37" y1="46.0751" x2="38.17" y2="48.33" width="0" layer="19" extent="1-1"/>
+<wire x1="38.354" y1="48.514" x2="37.37" y2="47.53" width="0.3048" layer="1"/>
+<wire x1="37.37" y1="46.0751" x2="37.37" y2="47.53" width="0.3048" layer="1"/>
 </signal>
 <signal name="RXD">
 <contactref element="IC1" pad="1"/>
-<wire x1="37.37" y1="48.863" x2="37.338" y2="48.895" width="0.3048" layer="1"/>
-<via x="37.338" y="48.895" extent="1-16" drill="0.6096"/>
-<wire x1="37.338" y1="48.895" x2="42.926" y2="48.895" width="0.3048" layer="16"/>
 <wire x1="42.926" y1="48.895" x2="44.577" y2="50.546" width="0.3048" layer="16"/>
 <wire x1="44.577" y1="50.546" x2="47.371" y2="50.546" width="0.3048" layer="16"/>
 <wire x1="47.371" y1="50.546" x2="48.768" y2="49.149" width="0.3048" layer="16"/>
@@ -2057,7 +2054,11 @@ design rules under a new name.</description>
 <wire x1="62.56" y1="38.92" x2="62.56" y2="41.478" width="0.3048" layer="1"/>
 <wire x1="62.56" y1="41.478" x2="62.611" y2="41.529" width="0.3048" layer="1"/>
 <contactref element="1.MCU1" pad="30"/>
-<wire x1="38.17" y1="46.0751" x2="37.37" y2="48.863" width="0" layer="19" extent="1-1"/>
+<wire x1="42.926" y1="48.895" x2="40.005" y2="48.895" width="0.3048" layer="16"/>
+<wire x1="40.005" y1="48.895" x2="39.37" y2="48.26" width="0.3048" layer="16"/>
+<via x="39.37" y="48.26" extent="1-16" drill="0.6096"/>
+<wire x1="39.37" y1="48.26" x2="38.17" y2="47.06" width="0.3048" layer="1"/>
+<wire x1="38.17" y1="46.0751" x2="38.17" y2="47.06" width="0.3048" layer="1"/>
 </signal>
 <signal name="D2">
 <contactref element="1.MCU1" pad="32"/>

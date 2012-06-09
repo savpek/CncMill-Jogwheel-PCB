@@ -2034,9 +2034,7 @@ design rules under a new name.</description>
 <wire x1="38.354" y1="49.149" x2="39.116" y2="49.911" width="0.3048" layer="1"/>
 <via x="39.116" y="49.911" extent="1-16" drill="0.6096"/>
 <wire x1="39.116" y1="49.911" x2="39.37" y2="49.657" width="0.3048" layer="16"/>
-<contactref element="1.MCU1" pad="31"/>
 <wire x1="60.325" y1="47.117" x2="65.16" y2="38.92" width="0" layer="19" extent="1-1"/>
-<wire x1="37.37" y1="46.0751" x2="38.17" y2="48.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RXD">
 <contactref element="IC1" pad="1"/>
@@ -2049,9 +2047,7 @@ design rules under a new name.</description>
 <wire x1="48.768" y1="49.149" x2="56.007" y2="49.149" width="0.3048" layer="16"/>
 <wire x1="56.007" y1="49.149" x2="60.071" y2="45.085" width="0.3048" layer="16"/>
 <via x="60.071" y="45.085" extent="1-16" drill="0.6096"/>
-<contactref element="1.MCU1" pad="30"/>
 <wire x1="60.071" y1="45.085" x2="62.56" y2="38.92" width="0" layer="19" extent="1-1"/>
-<wire x1="38.17" y1="46.0751" x2="37.37" y2="48.863" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="1.MCU1" pad="32"/>
